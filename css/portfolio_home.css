@@ -10,8 +10,18 @@ img {
 
 /* Header Styles */
 
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 #logo {
-    float: left;
+    order: 1;
+}
+
+#intro {
+    order: 2;
 }
 
 #name {
@@ -23,9 +33,11 @@ img {
 }
 
 #break {
+    width: 100%;
     height: 3px;
     color: darkslategray; /* For IE */
     background-color: darkslategray; /*For other browsers*/
+    order: 3;
 }
 
 
@@ -47,13 +59,15 @@ nav, a, button {
     align-content: flex-start;
 }
 
-.box0 {
+#box0 {
     width: 100%;
     height: 100%;
     order: 1;
 }
 
 /* Featured Works Styles */
+
+
 
 .box1 {
     width: 100%;
@@ -64,6 +78,7 @@ nav, a, button {
 .box2 {
     width: 33%;
     order: 3;
+    flex-direction: column;
     /* TODO: font, color, size */
     /* TODO: image padding */
 }
@@ -71,6 +86,7 @@ nav, a, button {
 .box3 {
     width: 33%;
     order: 4;
+    flex-direction: column;
     /* TODO: font, color, size */
     /* TODO: image padding */
 }
@@ -78,6 +94,17 @@ nav, a, button {
 .box4 {
     width: 33%;
     order: 5;
+    flex-direction: column;
     /* TODO: font, color, size */
     /* TODO: image padding */
 }
+
+
+/*
+h3 {
+    text-align: center;
+}
+
+p .feature {
+    text-align: center;
+} */
