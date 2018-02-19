@@ -6,7 +6,7 @@
         background-color: floralwhite;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 100%;
-        font-size: 100%; 
+        font-size: 100%;
     }
 
     img {
@@ -23,6 +23,7 @@
 
     #header {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -72,8 +73,8 @@
 
     .container {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         align-content: flex-start;
     }
 
@@ -158,10 +159,7 @@
 
 
 
-
-
 /** 0-400px **/
-
 
 @media screen and (max-width: 400px) {
 
@@ -169,7 +167,7 @@
         background-color: floralwhite;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 100%;
-        font-size: 100%; 
+        font-size: 100%;
     }
     
     img {
@@ -186,6 +184,7 @@
     
     #header {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -235,8 +234,8 @@
     
     .container {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         align-content: flex-start;
     }
     
@@ -322,10 +321,7 @@
 
 
 
-
-
 /**401-599px**/
-
 
 @media screen and (min-width: 401px) and (max-width: 599px) {
 
@@ -333,7 +329,7 @@
         background-color: floralwhite;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 100%;
-        font-size: 100%; 
+        font-size: 100%;
     }
     
     img {
@@ -350,6 +346,7 @@
     
     #header {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -399,8 +396,8 @@
     
     .container {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         align-content: flex-start;
     }
     
@@ -486,10 +483,7 @@
 
 
 
-
-
 /** 600-899px **/
-
 
 @media screen and (min-width: 600px) and (max-width: 899px) {
 
@@ -497,7 +491,7 @@
         background-color: floralwhite;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         width: 100%;
-        font-size: 100%; 
+        font-size: 100%;
     }
     
     img {
@@ -514,6 +508,7 @@
     
     #header {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -563,8 +558,8 @@
     
     .container {
         display: flex;
+        display: -webkit-flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
         align-content: flex-start;
     }
     
